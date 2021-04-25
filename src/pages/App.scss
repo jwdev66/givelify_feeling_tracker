@@ -1,0 +1,50 @@
+@import "assets/scss/variables";
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .title {
+    position: absolute;
+    right: 1.81%;
+    top: 2.34%;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: -0.02em;
+    color: #f6f4f6;
+  }
+
+  .footer {
+    width: 100%;
+    height: 56px;
+    background: rgba(0, 0, 0, 0.05);
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+
+    color: #ffffff;
+  }
+
+  .feeling-board-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
